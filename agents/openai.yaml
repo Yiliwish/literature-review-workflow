@@ -1,0 +1,13 @@
+interface:
+  display_name: 文献综述工作流
+  short_description: 按研究方案检索筛选文献，生成可追溯的证据表和综述正文
+  default_prompt: 请用 $literature-review-workflow 围绕［研究问题］做一篇文献综述，范围为［年份、研究对象和文献类型］。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
